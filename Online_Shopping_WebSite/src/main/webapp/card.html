@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Card Details</title>
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+	integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+	crossorigin="anonymous">
+<script
+	src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+	integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+	crossorigin="anonymous"></script>
+<script
+	src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+	crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<div class="container bg-light p-5 border border-1">
+		<div class=" m-1 ">
+			<h1 class="text-center ">Please Enter Your Card Details</h1>
+
+			<div class="container  mt-6 p-5 ">
+				<div class="row  justify-content-center ">
+
+
+					<div class="col-6 ">
+
+
+						<form action="Pay" method="post">
+							<div class="form-group font-weight-bold h4">
+								<label for="cardNo">Card Number</label> <input type="text"
+									name="cardNo" class="form-control" id="cardNo"
+									placeholder="Enter Your Card Number">
+
+							</div>
+							<div class="form-group font-weight-bold h4">
+								<label for="expiryDate">Expiry Date</label> <input type="text"
+									name="expiryDate" class="form-control" id="expiryDate"
+									placeholder="Enter your Expiry Date">
+							</div>
+
+							<div class="text-center display-3 ">
+
+								<input
+									class="btn btn-primary font-weight-bold text-dark  btn-lg w-25 active "
+									type="submit" value="Pay">
+
+							</div>
+						</form>
+
+						<br />
+
+
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>

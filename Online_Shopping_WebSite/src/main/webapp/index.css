@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+#conatiner {
+  margin: auto;
+ 
+  width: 500px;
+  height: 300px;
+}
+#row {
+  margin: auto;
+  width: 300px;
+  padding-top: 80px;
+  font-size: large;
+  font-weight: bolder;
+
+ 
+}
+#row1{
+    margin: auto;
+    width: 300px;
+    font-size: large;
+    font-weight: bolder;
+
+   
+  
+    
+}
+#hed{
+    margin: auto;
+    width: 500px;
+    height: 100px;
+    padding-top: 100px;
+  
+}
+#text{
+    height: 25px;
+    width: 300px;
+    
+}
